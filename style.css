@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
+:root {
+    --text-light: 300 14px Roboto;
+    --color-ligth: rgba(176, 197, 208, 0.5);
+    --color-dark: rgba(1, 19, 29, 0.5);
+    --color-midlle: rgb(168, 192, 205);
+    --border: 2px solid  var(--color-dark);
+}
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-ligth);
+    font: var(--text-light);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 700px;
+    /*border: var(--border);*/
+    background-color: var(--color-midlle);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-box{
+    width: 480px;
+    height: 680px;
+    /*border: var(--border);*/
+}
+
+.content-box_display{
+    margin: 10px auto;
+    width: 460px;
+    height: 20%;
+    background-color: #ffffff;
+    /*border: var(--border);*/
+    box-shadow: 10px 10px 9px -6px rgba(34, 60, 80, 0.54) inset;
+}
